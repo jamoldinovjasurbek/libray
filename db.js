@@ -9,5 +9,5 @@ const client = new Client({
   password: process.env.DB_PASSWORD,
   port:process.env.DB_PORT,
 });
-await Client.connect();1
+await Client.connect();
 export default client;
